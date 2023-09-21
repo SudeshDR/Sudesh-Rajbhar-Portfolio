@@ -1,13 +1,5 @@
 @charset "utf-8";
-/*
-Template Name: Spourmo
-Author: <a href="https://www.os-templates.com/">OS Templates</a>
-Author URI: https://www.os-templates.com/
-Copyright: OS-Templates.com
-Licence: Free to use under our free template licence terms
-Licence URI: https://www.os-templates.com/template-terms
-File: Layout CSS
-*/
+
 
 @import url("fontawesome-free/css/all.css");
 @import url("framework.css");
@@ -319,27 +311,27 @@ td{border-width:0 1px;}
 
 /* Colours
 --------------------------------------------------------------------------------------------------------------- */
-body{color:#A8A8A8; background-color:#202020/* Fallback incase a background image doesn't load */;}
-a{color:#8EC837;}
+body{color:#A8A8A8; background-color:#294D61/* Fallback incase a background image doesn't load */;}
+a{color: #6da5c0;;}
 a:active, a:focus{background:transparent !important;}/* IE10 + 11 Bugfix - prevents grey background */
 hr, .borderedbox{border-color:#D7D7D7;}
 label span{color:#FF0000; background-color:inherit;}
-input:focus, textarea:focus, *:required:focus{border-color:#8EC837 !important;}
+input:focus, textarea:focus, *:required:focus{border-color:#6DA5C0 !important;}
 
 .overlay{color:#FFFFFF; background-color:inherit;}
 .overlay::after{color:inherit; background-color:rgba(0,0,0,.55);}
 .overlay.light{color:#474747;}
 .overlay.light::after{background-color:rgba(255,255,255,.7);}
 
-.btn, .btn.inverse:hover{color:#FFFFFF; background-color:#8EC837; border-color:#8EC837;}
+.btn, .btn.inverse:hover{color:#FFFFFF; background-color:#6DA5C0; border-color:#6DA5C0;}
 .btn:hover, .btn.inverse{color:inherit; background-color:transparent; border-color:inherit;}
 
-.imgover:hover::before{background-color:rgba(142,200,55,.3);/* #8EC837 */}
+.imgover:hover::before{background-color:#a0c6da;/* #6DA5C0 */}
 .imgover, .imgover:hover::after{color:#FFFFFF;}
 
 
 /* Rows */
-.row0, .row0 a{color:#FFFFFF; background-color:#8EC837;}
+.row0, .row0 a{color:#FFFFFF; background-color:#6DA5C0;}
 .row1{color:#474747; background-color:#FFFFFF;}
 .row2{color:#474747; background-color:#F4F4F4;}
 .row3{color:#474747; background-color:#FFFFFF;}
@@ -357,20 +349,20 @@ input:focus, textarea:focus, *:required:focus{border-color:#8EC837 !important;}
 
 /* Contact Details */
 #ctdetails ul li div i{color:inherit; background-color:rgba(0,0,0,.03);}
-#ctdetails ul li div:hover i{color:#FFFFFF; background-color:#8EC837;}
+#ctdetails ul li div:hover i{color:#FFFFFF; background-color:#6DA5C0;}
 
 
 /* Header */
-#header{color:#FFFFFF; background-color:#8EC837;}
+#header{color:#FFFFFF; background-color:#6DA5C0;}
 #header #logo a{color:inherit;}
 
 
 /* Content */
-#introblocks figure figcaption > a{color:#FFFFFF; background-color:#8EC837;}
+#introblocks figure figcaption > a{color:#FFFFFF; background-color:#6DA5C0;}
 
 .points{}
 .points li a i{color:inherit; background-color:#FFFFFF;}
-.points li:hover a i{color:#FFFFFF; background-color:#8EC837;}
+.points li:hover a i{color:#FFFFFF; background-color:#6DA5C0;}
 
 #services article{border-color:rgba(0,0,0,.05);}
 #services article:hover{color:inherit; background-color:rgba(0,0,0,.02);}
@@ -387,12 +379,12 @@ input:focus, textarea:focus, *:required:focus{border-color:#8EC837 !important;}
 
 #footer input, #footer button{border-color:transparent;}
 #footer input{color:#FFFFFF; background-color:rgba(255,255,255,.2);}
-#footer input:focus{background-color:#8EC837;}
-#footer button{color:#FFFFFF; background-color:#8EC837;}
+#footer input:focus{background-color:#6DA5C0;}
+#footer button{color:#FFFFFF; background-color:#6DA5C0;}
 #footer button:hover{color:inherit; background-color:transparent; border-color:inherit;}
 
 #footer nav a{color:#FFFFFF;}
-#footer nav a:hover{color:#8EC837;}
+#footer nav a:hover{color:#6DA5C0;}
 
 
 /* Copyright */
@@ -402,20 +394,20 @@ input:focus, textarea:focus, *:required:focus{border-color:#8EC837 !important;}
 /* Navigation */
 #mainav li a{color:inherit;}
 #mainav .active a, #mainav a:hover, #mainav li:hover > a{color:#000000; background-color:inherit;}
-#mainav li li a, #mainav .active li a{color:#FFFFFF; background-color:rgba(142,200,55,.5); border-color:rgba(142,200,55,.5);/* #8EC837 */}
-#mainav li li:hover > a, #mainav .active .active > a{color:#FFFFFF; background-color:#8EC837;}
+#mainav li li a, #mainav .active li a{color:#FFFFFF; background-color:#6DA5C0; border-color:#adcedf;/* #6DA5C0 */}
+#mainav li li:hover > a, #mainav .active .active > a{color:#FFFFFF; background-color:#6DA5C0;}
 #mainav form select{color:#474747; background-color:#FFFFFF; border-color:#D7D7D7;}
 
 #breadcrumb *{color:#FFFFFF; background-color:inherit;}
-#breadcrumb li:last-child a{color:#8EC837;}
+#breadcrumb li:last-child a{color:#6DA5C0;}
 
 .container .sidebar nav a{color:inherit; border-color:#D7D7D7;}
-.container .sidebar nav a:hover{color:#8EC837;}
+.container .sidebar nav a:hover{color:#6DA5C0;}
 
 .pagination a, .pagination strong{border-color:#D7D7D7;}
-.pagination .current *{color:#FFFFFF; background-color:#8EC837;}
+.pagination .current *{color:#FFFFFF; background-color:#6DA5C0;}
 
-#backtotop{color:#FFFFFF; background-color:#8EC837;}
+#backtotop{color:#FFFFFF; background-color:#6DA5C0;}
 
 
 /* Tables + Comments */
@@ -528,3 +520,76 @@ table a, #comments a{background-color:inherit;}
 	.font-x2{font-size:1.6rem;}
 	.font-x3{font-size:1.8rem;}
 }
+
+.card {
+	display: inline-block;
+	width: 280px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	padding: 30px;
+	background-color: #102d3b;
+	text-align: center;
+}
+
+.card img {
+	max-width: 100%;
+	height: 200px;
+}
+
+.card a {
+	font-weight: bold;
+	color: #fff;
+}
+
+.card ul {
+	list-style-type: disc;
+	padding-left: 20px;
+    color: #a0c6da;
+}
+
+
+.center-image {
+    display: block;
+    margin: 0 auto; /* Center the image horizontally */
+    max-width: 100%; /* Ensure the image doesn't exceed its container's width */
+	width: 300px; /* Set the width and height of the circular frame */
+    height: 300px;
+  }
+
+  .circular-frame {
+    width: 300px; /* Set the width and height of the circular frame */
+    height: 300px;
+    border-radius: 50%; /* Makes it circular */
+    overflow: hidden; /* Clips the image to the circular shape */
+    margin: 20px auto; /* Adjust margin to position the circular frame */
+	background-color: #fff;
+  }
+
+  .circular-frame img {
+    width: 300px; /* Set the width and height of the circular frame */
+    height: 300px;
+    object-fit: cover; /* Maintains aspect ratio and covers the circular frame */
+  }
+
+  .content-container {
+    background-color: #f0f0f0; /* Change the background color as needed */
+    text-align: center;
+    padding: 20px;
+  }
+
+  .centered-fieldset {
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 50px;
+    margin: 20px;
+	margin-left: 300px;
+    display: inline-block;
+    text-align: left;
+  }
+  fieldset {
+	border: 2px solid #ccc;
+	border-radius: 10px;
+	padding: 20px;
+	margin-bottom: 20px;
+}
+  
